@@ -23,7 +23,7 @@ A simple interactive counter web app built with vanilla JavaScript, HTML, and SC
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 Counter_JS/
 ├── index.html
 ├── index.js
@@ -35,7 +35,7 @@ Counter_JS/
 │   └── components/
 │       └── _components.scss
 └── README.md
-\`\`\`
+```
 
 ## 👤 Author
 
