@@ -6,6 +6,11 @@ A simple interactive counter web app built with vanilla JavaScript, HTML, and SC
 
 [counterjs3.netlify.app](https://counterjs3.netlify.app/)
 
+## 📸 Preview
+
+![Counter JS](assets/favicon/counter_screenshot.png)
+
+
 ## 📋 Features
 
 - Increment, decrement and reset the counter
