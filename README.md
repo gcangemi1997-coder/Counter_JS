@@ -1,6 +1,6 @@
 # Counter JS
 
-A simple interactive counter web app built with vanilla JavaScript, HTML, and SCSS.
+A simple interactive counter web app built with vanilla JavaScript, HTML, and SCSS.Counter JS is a simple and responsive web application that allows users to increment, decrement, and reset a counter value. Users can also save the current value and display it separately. The app is built with vanilla JavaScript, using dynamic DOM manipulation, and styled with SCSS for a clean and modern look. The project is fully responsive across mobile, tablet, and desktop devices.
 
 ## 🚀 Live Demo
 
