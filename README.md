@@ -29,6 +29,8 @@ Counter_JS/
 │   └── favicon/
 ├── css/
 │   └── global.css
+├── js/
+│   └── index.js
 ├── scss/
 │   ├── global.scss
 │   ├── abstracts/
@@ -38,7 +40,6 @@ Counter_JS/
 │       └── _components.scss
 ├── .gitignore
 ├── index.html
-├── index.js
 ├── package.json
 └── README.md
 ```
