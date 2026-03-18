@@ -25,15 +25,21 @@ A simple interactive counter web app built with vanilla JavaScript, HTML, and SC
 
 ```
 Counter_JS/
-├── index.html
-├── index.js
-├── styles/
+├── assets/
+│   └── favicon/
+├── css/
+│   └── global.css
+├── scss/
 │   ├── global.scss
 │   ├── abstracts/
 │   │   ├── _variables.scss
 │   │   └── _mixins.scss
 │   └── components/
 │       └── _components.scss
+├── .gitignore
+├── index.html
+├── index.js
+├── package.json
 └── README.md
 ```
 
