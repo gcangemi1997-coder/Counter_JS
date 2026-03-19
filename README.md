@@ -51,4 +51,4 @@ Counter_JS/
 
 ## 👤 Author
 
-Giorgio Cangemi – [GitHub](https://github.com/gcangemi1997-coder)
+gcangemi1997-coder – [GitHub](https://github.com/gcangemi1997-coder)
