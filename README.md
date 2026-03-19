@@ -4,7 +4,7 @@ A simple interactive counter web app built with vanilla JavaScript, HTML, and SC
 
 ## 🚀 Live Demo
 
-[counterjs3.netlify.app](https://counterjs3.netlify.app/)
+[counte-rj-lime.vercel.app](https://counter-js-lime.vercel.app/)
 
 ## 📸 Preview
 
