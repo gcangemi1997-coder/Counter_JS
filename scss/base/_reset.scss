@@ -1,0 +1,18 @@
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: $bg-dark;
+  @include flex-center(column);
+  overflow: hidden;
+  position: relative;
+}

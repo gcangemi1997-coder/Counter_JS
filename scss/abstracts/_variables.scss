@@ -1,6 +1,25 @@
 
-$color-primary: greenyellow;
-$color-bg: rgb(0, 0, 0);
-$color-text: white;
-$border-radius-sm: 10px;
-$border-radius-btn: 18px;
+$bg-dark: #0a0a0f;
+$color-positive: #4ade80;
+$color-negative: #f87171;
+$color-reset: #fbbf24;
+$color-save: #a78bfa;
+$color-white: #ffffff;
+
+$btn-colors: (
+  'inc':   $color-positive,
+  'dec':   $color-negative,
+  'reset': $color-reset,
+  'save':  $color-save,
+);
+
+$glass-bg: rgba(255, 255, 255, 0.05);
+$glass-border: rgba(255, 255, 255, 0.12);
+$glass-blur: 24px;
+
+$radius-card: 24px;
+$radius-display: 14px;
+$radius-btn: 12px;
+
+$gap: 1.4rem;
+$padding-card: 2.5rem 2rem 2rem;
