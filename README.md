@@ -29,24 +29,28 @@ A simple interactive counter web app built with vanilla JavaScript, HTML, and SC
 ## 📁 Project Structure
 
 ```
-Counter_JS/
-├── assets/
-│   └── favicon/
-├── css/
-│   └── global.css
-├── js/
-│   └── index.js
-├── scss/
-│   ├── global.scss
-│   ├── abstracts/
-│   │   ├── _variables.scss
-│   │   └── _mixins.scss
-│   └── components/
-│       └── _components.scss
-├── .gitignore
+counter-app/
 ├── index.html
-├── package.json
-└── README.md
+├── assets/favicon/
+├── css/
+│ └── global.css
+├── js/
+│ ├── dom.js
+│ ├── counter.js
+│ └── app.js
+├── scss/
+│ ├── global.scss
+│ ├── abstracts/
+│ │ ├── _variables.scss
+│ │ └── _mixins.scss
+│ ├── base/
+│ │ └── _reset.scss
+│ ├── components/
+│ │ ├── _counter.scss
+│ │ └── _button.scss
+│ └── layout/
+│ └── _background.scss
+└── README
 ```
 
 ## 👤 Author
