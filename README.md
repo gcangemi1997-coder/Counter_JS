@@ -16,6 +16,7 @@ A simple interactive counter web app built with vanilla JavaScript, HTML, and SC
 - Increment, decrement and reset the counter
 - Save the current value and display it separately with doubleclick function
 - Fully responsive design (mobile, tablet, desktop)
+- Double-tap to zoom disabled to prevent zooming on mobile
 - DOM built dynamically with JavaScript
 
 ## 🛠️ Tech Stack
