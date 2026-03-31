@@ -1,5 +1,5 @@
 
-// Creats and appends all DOM elements
+// Creates and appends all DOM elements
 
 const orb1 = document.createElement('div');
 orb1.className = 'bg-orb orb1';
