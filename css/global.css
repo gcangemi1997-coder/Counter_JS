@@ -190,6 +190,27 @@ body {
   box-shadow: 0 0 12px rgba(167, 139, 250, 0.4);
 }
 
+/* Desktop */
+@media (min-width: 1024px) {
+  .bg-orb {
+    filter: blur(100px);
+  }
+}
+/* Tablet and medium screen */
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 500px;
+    padding: 3rem;
+  }
+  #actual-count {
+    font-size: 6rem;
+  }
+  .btn {
+    width: 60px;
+    height: 60px;
+  }
+}
+
 @media (max-width: 400px) {
   .wrapper {
     padding: 2rem 1.4rem 1.6rem;
