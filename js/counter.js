@@ -1,38 +1,45 @@
 
-// Counter Logic
+import { display, savedCount } from './dom.js';
 
-let count = 0;
-let savedValue = null;
+// Get counting from Local Storage (if exists)
+let count = parseInt(localStorage.getItem('currentCount')) || 0;
+let savedValue = localStorage.getItem('savedPoint') ? parseInt(localStorage.getItem('savedPoint')) : null;
 
-function updateDisplay() {
+export function updateDisplay() {
   display.textContent = count;
   display.classList.toggle('positive', count > 0);
   display.classList.toggle('negative', count < 0);
+  // Saving current state after each changes
+  localStorage.setItem('currentCount', count);
+  
+  // Visual handling of the Save button when a value is stored.
+  savedCount.classList.toggle('active', savedValue !== null);
 }
 
-function incrementCount() {
+export function incrementCount() {
   count++;
   updateDisplay();
 }
 
-function decrementCount() {
+export function decrementCount() {
   count--;
   updateDisplay();
 }
 
-function resetCount() {
+export function resetCount() {
   count = 0;
+  localStorage.removeItem('currentCount');
   updateDisplay();
 }
 
-function saveOrLoad() {
+export function saveOrLoad() {
   if (savedValue === null) {
     savedValue = count;
-    savedCount.classList.add('active');
+    localStorage.setItem('savedPoint', savedValue);
   } else {
     count = savedValue;
     savedValue = null;
-    savedCount.classList.remove('active');
-    updateDisplay();
+    localStorage.removeItem('savedPoint');
   }
+  updateDisplay();
 }
