@@ -1,10 +1,12 @@
 
-// Entry point: Wires up the logic to the DOM elements
+import * as dom from './dom.js';
+import * as logic from './counter.js';
 
-increment.addEventListener('click', incrementCount);
-decrement.addEventListener('click', decrementCount);
-reset.addEventListener('click', resetCount);
-savedCount.addEventListener('click', saveOrLoad);
+// Wiring up the logic
+dom.increment.addEventListener('click', logic.incrementCount);
+dom.decrement.addEventListener('click', logic.decrementCount);
+dom.reset.addEventListener('click', logic.resetCount);
+dom.savedCount.addEventListener('click', logic.saveOrLoad);
 
-// Showing 0 at initial state
-updateDisplay();
+// Initial state
+logic.updateDisplay();
